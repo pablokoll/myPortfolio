@@ -1,6 +1,6 @@
 {
     "homepage": "http://PabloK09.github.io/myPortfolio",
-    "name": "my-portfolio",
+    "name": "myPortfolio",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
