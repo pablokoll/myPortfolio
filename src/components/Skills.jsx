@@ -1,4 +1,3 @@
-import { ChipIcon } from '@heroicons/react/solid';
 import React from 'react';
 import Education from '../assets/helpers/skills/education';
 import Experience from '../assets/helpers/skills/experience';

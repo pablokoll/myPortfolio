@@ -1,7 +1,4 @@
 import React from 'react';
-import emoji_coffe from '../assets/emojis/emoji_coffe.png';
-import emoji_pullup from '../assets/emojis/emoji_pullup.png';
-import emoji_computer from '../assets/emojis/emoji_computer.png';
 
 function About() {
     return (
