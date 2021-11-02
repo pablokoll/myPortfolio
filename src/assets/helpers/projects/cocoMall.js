@@ -94,7 +94,7 @@ function CocoMall() {
                                 Experience
                             </h4>
                             <p className='text-justify px-2'>
-                                During the course of the project, I learned different things, mainly
+                                During the project, I learned different things, mainly
                                 teamwork. This work was done by 8 people, where we had 1 month to
                                 carry it out. Part of the learning was using the SCRUM methodology,
                                 version management with GitHub and the discussions of how we were

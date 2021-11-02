@@ -55,8 +55,8 @@ function BffGallery() {
                                     </li>
                                     <li className=''>React (Hooks)</li>
                                     <li className=''>Redux</li>
-                                    <li className=''>Tailwind</li>
-                                    <li className=''>Figma</li>
+                                    <li className=''>CSS (vanilla)</li>
+                                    <li className='invisible'>Figma</li>
                                 </ul>
                                 <ul className='flex flex-col justify-start text-myDarkGray'>
                                     <li className='text-myNightBlue font-semibold text-lg'>
@@ -72,37 +72,33 @@ function BffGallery() {
                                         Tools
                                     </li>
                                     <li className=''>GitHub</li>
-                                    <li className=''>Firebase</li>
-                                    <li className=''>Mercado Pago</li>
-                                    <li className=''>Google Maps API</li>
+                                    <li className=''>Thedogapi</li>
+                                    <li className='hidden'>Mercado Pago</li>
+                                    <li className='hidden'>Google Maps API</li>
                                 </ul>
                             </div>
                         </div>
                         <div className='flex flex-col mt-4'>
                             <h4 className='text-myDarkGray font-bold text-3xl mb-4'>Description</h4>
                             <p className='text-justify px-2'>
-                                COCO mall is a marketplace for all your needs, we offer a
-                                possibility to enterprises can create yours shops in we platform, in
-                                this app you can post a lot of products, share the ubication of
-                                store with Google Maps API and management of stock. The user can
-                                explore the all stores with complete flexibility, can add to cart a
-                                products of different stores, and realize the order in one payment.
-                                Users can post reviews of the stores, and public questions in the
-                                products. The page count with panel of user and stores, in this
-                                place you can administrate a store, products, orders, user info,
-                                etc.. Also we have a user administrator he can control all the
-                                stores, products and users.
+                                BFF-Gallery is a dog-friendly of different breeds, in there you can
+                                se than more 172 breed. In the APP you can filter for the
+                                temperaments of breeds, searching a breed with name, order
+                                alphabetical ascendant or descendant, order for the range weight of
+                                dogs and filter breeds of the API or the database. Also you can
+                                create your fantasy breed this is a controlled form, with
+                                validation. When you create a breed you can choose a image, name,
+                                weight and others characteristics. The APP counts with a section of
+                                favorites, and you can visualize on detail all breeds!
                             </p>
                             <h4 className='text-myDarkGray font-bold text-3xl mb-4 mt-4'>
                                 Experience
                             </h4>
                             <p className='text-justify px-2'>
-                                During the course of the project, I learned different things, mainly
-                                teamwork. This work was done by 8 people, where we had 1 month to
-                                carry it out. Part of the learning was using the SCRUM methodology,
-                                version management with GitHub and the discussions of how we were
-                                going to organize the tasks. It is a project where I learned a lot
-                                and had fun doing it.
+                                This is my first project Full Stack, I could learning a lot of
+                                things for example the magic connection between the Front end and
+                                Back end, using a API with my database and sending both datas.
+                                I have a lot of appreciation for this project because it made me understand many things, unite all the things I had learned and obtain this result being the first time, I am really very happy with what was obtained.
                             </p>
                         </div>
                     </div>
