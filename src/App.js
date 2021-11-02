@@ -4,7 +4,7 @@ import Project from './views/Project'
 
 function App() {
     return (
-        <div className='bg-myBackground'>
+        <div className=''>
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/project/:title' component={Project}/>

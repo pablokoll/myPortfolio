@@ -35,5 +35,5 @@ module.exports = {
             textDecoration: ['focus-visible']
         },
     },
-    plugins: [require('@tailwindcss/forms'),],
+    plugins: [require('@tailwindcss/forms'), require('tailwindcss-textshadow')],
 };

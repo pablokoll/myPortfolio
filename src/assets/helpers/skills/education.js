@@ -25,7 +25,7 @@ function Education() {
             <div className='flex gap-5 mx-2 '>
             {educationArr.map((education, index) => {
                 return (
-                    <div key={index} className="mt-2 flex flex-col margin-auto bg-white p-3 rounded-xl w-2/3 h-64 relative">
+                    <div key={index} className="mt-2 flex flex-col margin-auto bg-white p-3 rounded-xl w-2/3 h-64 relative shadow-lg">
                         <h2 className='text-myDarkGray font-bold text-2xl '>{education.title}</h2>
                         <p className='text-myYellow border-b-2 mb-2 border-myGray text-lg'>{education.institution}</p>
                         <p className='text-myDarkGray font-normal text-lg'>{education.date}</p>

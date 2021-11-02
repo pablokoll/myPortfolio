@@ -10,7 +10,7 @@ function Skills() {
             <div className='flex md:flex-row flex-col items-center min-h-screen'>
                 <div className='container px-5 py-10 mx-auto'>
                     <div className='mb-10'>
-                        <h5 className='text-myYellow font-semibold text-2xl mb-2 ml-2'>SKILL</h5>
+                        <h5 className='text-myYellow font-semibold text-2xl mb-2 ml-2 text-shadow'>SKILL</h5>
                         <h1 className='title-font lg:text-7xl sm:text-4xl text-3xl font-extrabold text-myDarkGray relative'>
                             Skills and Experience
                         </h1>

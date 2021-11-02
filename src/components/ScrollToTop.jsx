@@ -31,7 +31,7 @@ function ScrollToTop() {
   }, []);
 
   return (
-    <div className='fixed bottom-6 right-6 z-10'>
+    <div className='fixed bottom-6 right-6 z-10 '>
       <button
         type='button'
         onClick={scrollToTop}
@@ -40,7 +40,7 @@ function ScrollToTop() {
           'inline-flex items-center p-3 rounded-full shadow-sm text-white bg-myDarkGray ring-2 ring-myYellowLow transition-opacity hover:bg-myYellow focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-myYellowLow'
         )}
       >
-        <BiArrowFromBottom className='h-6 w-6' aria-hidden='true' />
+        <BiArrowFromBottom className='h-6 w-6 ' aria-hidden='true' />
         {/* <FaArrowUp className='h-6 w-6' aria-hidden='true' /> */}
       </button>
     </div>

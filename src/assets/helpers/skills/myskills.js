@@ -28,13 +28,13 @@ function Skill() {
             <div className='flex gap-5 mx-2 '>
                 {skillArr.map((education, index) => {
                     return (
-                        <div className='flex flex-col w-full'>
+                        <div className='flex flex-col w-full '>
                             <h2 className='text-myNightBlue font-bold text-2xl '>
                                 {education.title}
                             </h2>
                             <div
                                 key={index}
-                                className='mt-2 flex flex-col margin-auto bg-white p-3 rounded-xl w-full h-64 relative'
+                                className='mt-2 flex flex-col margin-auto bg-white p-3 rounded-xl w-full h-64 relative shadow-lg'
                             >
                                 <p className='text-myDarkGray font-normal text-lg'>
                                     {education.skills.map((skill) => {

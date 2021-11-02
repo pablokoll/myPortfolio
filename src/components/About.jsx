@@ -6,20 +6,13 @@ import emoji_computer from '../assets/emojis/emoji_computer.png';
 function About() {
     return (
         <section id='about'>
-            <div className='flex md:flex-row flex-col items-center min-h-screen'>
-                <div className='container mx-auto flex px-10 py-20 md:flex-row-reverse flex-col-reverse items-center '>
-                    <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center'>
-                        <h5 className='text-myYellow font-semibold text-2xl mb-2'>ABOUT</h5>
-                        <div className='flex items-center'>
+            <div className='flex md:flex-row flex-col items-center'>
+                <div className='container px-5 py-10 mx-auto'>
+                    <div className='mb-10'>
+                        <h5 className='text-myYellow font-semibold text-2xl mb-2 text-shadow'>ABOUT</h5>
                         <h1 className='title-font lg:text-7xl sm:text-4xl text-3xl mb-4 font-extrabold text-myDarkGray relative'>
                             Who I am ?
                         </h1>
-                            <img
-                                className='ml-4 w-full md:w-1/6 object-cover object-center rounded-lg'
-                                src={emoji_computer}
-                                alt='computer'
-                            />
-                        </div>
 
                         <p className='mb-8 font-medium text-2xl text-myDarkGray text-justify'>
                             I am a <span className='text-myNightBlue font-semibold'>Full Stack developer </span> with <span className='text-myNightBlue font-semibold'> experience</span> developing Front-end and Back-end applications for  <span className='text-myNightBlue font-semibold'>web</span> and <span className='text-myNightBlue font-semibold'> mobile </span>. During the pandemic i was encouraged to get into IT and I'm excited to be able to work on something that I enjoy and can continue learning.

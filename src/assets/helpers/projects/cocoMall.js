@@ -20,7 +20,7 @@ function CocoMall() {
         </Link>
             <div className='flex flex-col container px-5 py-5 mx-auto items-center bg-white w-2/3 h-full'>
                 <div className='flex items-center gap-5 relative '>
-                    <span className='absolute text-lg text-myDarkGrayLow font-bold top-0 -left-52'>Back</span>
+                    
                     <h2 className='title-font lg:text-5xl sm:text-4xl text-3xl mb-4 font-extrabold text-myDarkGray relative'>
                         COCO mall
                     </h2>

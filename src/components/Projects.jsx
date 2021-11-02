@@ -6,15 +6,19 @@ function Projects() {
         <section id='projects' className='bg-myDarkGray body-font min-h-screen'>
             <div className='container px-5 py-10 mx-auto'>
                 <div className='flex flex-col w-full'>
-                    <h5 className='text-myYellow font-semibold text-2xl mb-2 ml-2'>MY PORTFOLIO</h5>
+                    <h5 className='text-myYellow font-semibold text-2xl mb-2 ml-2 text-shadow'>MY PORTFOLIO</h5>
                     <h1 className='title-font lg:text-7xl sm:text-4xl text-3xl font-extrabold text-myWhite relative'>
                         Projects
                     </h1>
                     <div className='flex mt-8 place-items-center'>
-                      <span className='text-myYellowLow font-semibold text-2xl mb-2'>SORT BY:</span>
-                      <select className='text-myYellowLow font-semibold text-2xl mb-2 ml-2 bg-transparent outline-none appearance-none focus:ring-0 border-none' >
-                        <option value="Relevance">RELEVANCE</option>
-                      </select>
+                        <span className='text-myYellowLow font-semibold text-2xl mb-2'>
+                            SORT BY: RELEVANCE
+                        </span>
+                        {/* <select className='text-myYellowLow font-semibold text-2xl mb-2 ml-2 bg-transparent outline-none appearance-none focus:ring-0 border-none'>
+                            <option value='Relevance' className='appearance-none'>
+                                RELEVANCE
+                            </option>
+                        </select> */}
                     </div>
                 </div>
                 <div className='flex flex-wrap -m-4'>
