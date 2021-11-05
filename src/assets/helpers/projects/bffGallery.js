@@ -27,7 +27,7 @@ function BffGallery() {
                     <h2 className='title-font lg:text-5xl sm:text-4xl text-3xl mb-4 font-extrabold text-myDarkGray relative'>
                         BFF Gallery
                     </h2>
-                    <span className='text-myYellow font-bold'>Dog Gallery</span>
+                    <span className='text-myYellow font-bold text-shadow'>Dog Gallery</span>
                 </div>
                 <div className='flex relative w-2/3 justify-center'>
                     <iframe
@@ -44,7 +44,7 @@ function BffGallery() {
                 <div className='flex flex-col w-2/3 justify-center items-center py-2'>
                     <div>
                         <div className='flex flex-col mt-4'>
-                            <h5 className='text-myYellow font-semibold text-lg'>JAVASCRIPT</h5>
+                            <h5 className='text-myYellow font-semibold text-xl text-shadow'>JAVASCRIPT</h5>
                             <h4 className='text-myDarkGray font-bold text-3xl mb-2'>
                                 Technologies
                             </h4>

@@ -19,7 +19,7 @@ const projectArr = [
 function Project() {
    
     return (
-        <div className='flex gap-8 mx-10 mt-4 m-auto container'>
+        <div className='flex flex-col md:flex-row gap-8 mt-4 m-auto container items-start'>
             {projectArr.map((project, index) => {
                 return (
                     <Link to={`/project/${project.title}`}>

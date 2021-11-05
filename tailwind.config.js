@@ -5,7 +5,7 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                myBackground: '#F5F5F5',
+                myBackground: '#F9F9F9',
                 myWhite: '#F5F5F6',
                 myGray: '#D8D4DC',
                 myNightBlue: '#12296B',
@@ -13,7 +13,26 @@ module.exports = {
                 myYellow: '#F6CE04',
                 myYellowLow: '#F7F1DF',
                 myYellowDark: '#e8c307',
-                myDarkGrayLow: '#535369'
+                myDarkGrayLow: '#535369',
+                myTextBlue: '#4563DE',
+                myButtonBlueT: '#425FDB',
+                myButtonFill: '#E8EBF6',
+                mySubTitle2: '#3F5FD9',
+                myTextPresent: '#4D4D4D',
+                mySkillBlue: '#DBEBED',
+                mySkillEduc: '#286C92',
+                mySkillLila: '#DEDBED',
+                mySkillExp: '#7448AE',
+                mySkillOrange: '#EDE4DB',
+                mySkillSkill: '#A94530',
+                mySkillSubSkill: '#B95520',
+                mySkillTools: '#544F76',
+                myContactTitles: '#373737',
+                myContactText: '#5F5F5F',
+                myContactPlace: '#737373',
+                myContactBorderInput: '#B3B3B3',
+                myBlue: '#223FBB',
+                myGray2: '#6E6F74'
             },
         },
         container: {

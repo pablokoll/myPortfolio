@@ -13,7 +13,7 @@ function Home() {
     return (
         <>
         <ReadingProgress target={target} />
-        <div className='bg-myBackground' ref={target}>
+        <div className='bg-myBackground overflow-x-hidden' ref={target}>
             <ScrollToTop />
             <Presentation />
             <About />

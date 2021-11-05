@@ -27,7 +27,7 @@ function ReadingProgress ({ target }) {
       return () => window.removeEventListener("scroll", scrollListener);
     });
   
-    return <div className='fixed h-2 top-0 bg-myYellow z-20' style={{width: `${readingProgress}%`}} />;
+    return <div className='fixed h-2 top-0 bg-myBlue z-20' style={{width: `${readingProgress}%`}} />;
   };
 
   export default ReadingProgress
