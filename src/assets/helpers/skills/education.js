@@ -25,7 +25,7 @@ function Education() {
             <h3 className='title-font lg:text-4xl sm:text-2xl text-3xl mb-4 font-semibold text-mySkillEduc relative bg-mySkillBlue rounded-lg px-4'>
                 Education
             </h3>
-            <div className='flex gap-5 mx-2 items-center w-full md:justify-center'>
+            <div className='flex gap-5 mx-2 items-center w-full'>
                 <Carousel
                     className='w-full md:hidden'
                     infiniteLoop
