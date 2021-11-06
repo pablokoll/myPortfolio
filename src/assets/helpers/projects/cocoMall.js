@@ -44,7 +44,9 @@ function CocoMall() {
                             </h4>
                             <div className='flex justify-between items-center px-2'>
                                 <div>
-                                    <h4 className='text-myBlue font-bold text-xl bg-myButtonFill'>Front-end</h4>
+                                    <h4 className='text-myBlue font-bold text-xl bg-myButtonFill'>
+                                        Front-end
+                                    </h4>
                                     <ul className='flex flex-col text-myDarkGray bg-white p-4 rounded-lg'>
                                         <li className=''>React (Hooks)</li>
                                         <li className=''>Redux</li>
@@ -74,13 +76,15 @@ function CocoMall() {
                         </div>
                         <div className='flex flex-col mt-4'>
                             <h4 className='text-myDarkGray font-bold text-3xl mb-4'>Description</h4>
-                            <p className='text-justify px-2'>
+                            <p className='text-left px-2 mb-1'>
                                 COCO mall is a marketplace for all your needs, we offer a
                                 possibility to enterprises can create yours shops in we platform, in
                                 this app you can post a lot of products, share the ubication of
                                 store with Google Maps API and management of stock. The user can
                                 explore the all stores with complete flexibility, can add to cart a
                                 products of different stores, and realize the order in one payment.
+                            </p>
+                            <p className='text-left px-2 mb-1'>
                                 Users can post reviews of the stores, and public questions in the
                                 products. The page count with panel of user and stores, in this
                                 place you can administrate a store, products, orders, user info,
@@ -90,7 +94,7 @@ function CocoMall() {
                             <h4 className='text-myDarkGray font-bold text-3xl mb-4 mt-4'>
                                 Experience
                             </h4>
-                            <p className='text-justify px-2'>
+                            <p className='text-left px-2 mb-1'>
                                 During the project, I learned different things, mainly teamwork.
                                 This work was done by 8 people, where we had 1 month to carry it
                                 out. Part of the learning was using the SCRUM methodology, version

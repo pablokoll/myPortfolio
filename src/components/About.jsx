@@ -11,10 +11,10 @@ function About() {
                         <h1 className='title-font lg:text-6xl  text-4xl mb-4 font-black text-myDarkGray relative'>
                             Who I am ?
                         </h1>
-                        <p className='mb-8 font-medium text-2xl text-myTextBlue text-opacity-70 text-justify'>
+                        <p className='mb-8 font-medium text-2xl text-myTextBlue text-opacity-75 text-left'>
                             I am <span className='text-myTextBlue font-bold'>Full Stack developer </span> with <span className='text-myTextBlue font-bold'> experience</span> developing Front-end and Back-end applications for  <span className='text-myTextBlue font-bold'>web</span> and <span className='text-myTextBlue font-bold'> mobile </span>. During the pandemic i was encouraged to get into IT and I'm excited to be able to work on something that I enjoy and can continue learning.
                         </p>
-                        <p className='mb-8 font-medium text-2xl text-myTextBlue text-opacity-70 text-justify'>
+                        <p className='mb-8 font-medium text-2xl text-myTextBlue text-opacity-75 text-left'>
                             I am looking for <span className='text-myTextBlue font-bold'> new challenges </span> where I can bring my experience and
                             knowledge. I am looking for a position that will allow me to continue
                             learning and developing as a professional.

@@ -14,8 +14,8 @@ function Presentation() {
     return (
         <section id='presentation'>
             <div className='flex md:flex-row flex-col items-center min-h-screen '>
-                <div className='container flex px-10 py-20 md:flex-row flex-col-reverse'>
-                    <div className='lg:flex-grow md:w-1/2 lg:pr-12 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center md:justify-center'>
+                <div className='container flex px-10 md:py-20 md:flex-row flex-col-reverse md:items-center'>
+                    <div className='lg:flex-grow md:w-1/2 lg:pr-12 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center md:justify-center h-screen md:h-full justify-evenly'>
                         <div className='flex items-center w-full mb-3'>
                             <img
                                 className='object-cover object-center md:hidden h-10 w-10 rounded-full mr-2'
@@ -26,26 +26,28 @@ function Presentation() {
                                 &#123; HI, I AM PABLO KOLL
                             </h5>
                         </div>
-                        <div className='mb-4 w-full'>
-                            <h1 className=' xl:text-6xl sm:text-4xl text-3xl font-black text-myDarkGray relative w-full'>
-                                Logic Resolution
-                                <br />
-                                <div className='flex gap-2 w-full'>
-                                    <span>In</span>
-                                    <Typewriter
-                                        className='title-font xl:text-6xl sm:text-4xl text-3xl font-black text-myDarkGray relative w-full'
-                                        options={{
-                                            strings: ['Front-end', 'Back-end', 'Full-Stack'],
-                                            autoStart: true,
-                                            loop: true,
-                                        }}
-                                    />
-                                </div>
-                            </h1>
+                        <div>
+                            <div className='mb-4 w-full'>
+                                <h1 className=' xl:text-6xl sm:text-4xl text-3xl font-black text-myDarkGray relative w-full'>
+                                    Logic Resolution
+                                    <br />
+                                    <div className='flex gap-2 w-full'>
+                                        <span>In</span>
+                                        <Typewriter
+                                            className='title-font xl:text-6xl sm:text-4xl text-3xl font-black text-myDarkGray relative w-full'
+                                            options={{
+                                                strings: ['Front-end', 'Back-end', 'Full-Stack'],
+                                                autoStart: true,
+                                                loop: true,
+                                            }}
+                                        />
+                                    </div>
+                                </h1>
+                            </div>
+                            <p className='md:mb-8 font-medium md:text-2xl xl:w-2/3 text-myTextPresent text-xl w-full mb-6'>
+                                Experience in creation apps from Front-end and Back-end &#125;
+                            </p>
                         </div>
-                        <p className='md:mb-8 font-medium md:text-2xl xl:w-2/3 text-myTextPresent text-xl w-full mb-6'>
-                            Experience in creation apps from Front-end and Back-end &#125;
-                        </p>
                         <div className='flex flex-initial justify-start md:gap-6 gap-4 w-full items-center'>
                             <div
                                 onClick={scrollToBottom}
@@ -63,9 +65,9 @@ function Presentation() {
                             </a>
                             
                         </div>
-                        <div className='md:invisible md:w-0 md:h-0 w-full h-full bottom-0'>
+                        {/* <div className='md:invisible md:w-0 md:h-0 w-full h-full bottom-0'>
                             <img className='' src={EmojiPablo} alt='pabloGif' />
-                        </div>
+                        </div> */}
                     </div>
                     <div className='w-2/5'>
                         <img

@@ -85,10 +85,10 @@ function Contact() {
                                     href={getLinkWhatsApp()}
                                     target='_blank'
                                     rel='noreferrer'
-                                    className='flex gap-3 z-10 place-items-center'
+                                    className='group flex gap-3 z-10 place-items-center'
                                 >
-                                <BsWhatsapp className=' text-myContactText z-10 hover:text-myTextBlue' />
-                                <span className=' text-myContactText hover:text-myTextBlue text-sm md:text-base z.10'> +54 11 3431 1774</span>
+                                <BsWhatsapp className=' text-myContactText z-10 group-hover:text-myTextBlue' />
+                                <span className=' text-myContactText group-hover:text-myTextBlue text-sm md:text-base z.10'> +54 11 3431 1774</span>
                                 </a>
                             </div>
                             <div className='flex gap-3 mb-1 md:my-4 place-items-center'>

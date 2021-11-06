@@ -58,7 +58,7 @@ function Skill() {
                         );
                     })}
                 </Carousel>
-                <div className='flex gap-16 px-4 items-center'>
+                <div className='flex gap-16 px-4 items-center w-full'>
                     {skillArr.map((education, index) => {
                         return (
                             <div className='flex flex-col md:w-full w-0 h-0 md:h-full md:visible invisible items-center'>

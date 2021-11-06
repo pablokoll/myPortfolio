@@ -51,10 +51,10 @@ function Experience() {
                 )
             })}
             </Carousel>
-            <div className='flex gap-16 px-4 items-center'>
+            <div className='flex gap-16 px-4 items-center w-full'>
             {experienceArr.map((education, index) => {
                 return (
-                    <div key={index} className="mt-2 flex flex-col margin-auto bg-white p-3 rounded-xl md:w-64 w-0 h-0 md:h-56 md:visible invisible relative shadow-lg text-left justify-between">
+                    <div key={index} className="mt-2 flex flex-col margin-auto bg-white p-3 rounded-xl md:w-full w-0 h-0 md:h-64 md:visible invisible relative shadow-lg text-left justify-between">
                         <h2 className='text-myDarkGray font-bold md:text-2xl text-xl '>{education.title}</h2>
                         <div>
                         <p className='text-myTextPresent border-b-2 mb-2 border-myGray md:text-lg'>{education.institution}</p>

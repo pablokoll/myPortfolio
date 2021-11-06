@@ -72,7 +72,7 @@ function BffGallery() {
                         </div>
                         <div className='flex flex-col mt-4'>
                             <h4 className='text-myDarkGray font-bold text-3xl mb-4'>Description</h4>
-                            <p className='text-justify px-2'>
+                            <p className='text-left px-2'>
                                 BFF-Gallery is a dog-friendly of different breeds, in there you can
                                 se than more 172 breed. In the APP you can filter for the
                                 temperaments of breeds, searching a breed with name, order
@@ -86,7 +86,7 @@ function BffGallery() {
                             <h4 className='text-myDarkGray font-bold text-3xl mb-4 mt-4'>
                                 Experience
                             </h4>
-                            <p className='text-justify px-2'>
+                            <p className='text-left px-2'>
                                 This is my first project Full Stack, I could learning a lot of
                                 things for example the magic connection between the Front end and
                                 Back end, using a API with my database and sending both datas.
