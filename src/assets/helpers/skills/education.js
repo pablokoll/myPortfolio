@@ -38,7 +38,7 @@ function Education() {
 
     return (
         <div className='mb-4 relative'>
-            <h3 className='title-font lg:text-4xl sm:text-2xl text-3xl mb-4 font-semibold text-mySkillEduc relative bg-mySkillBlue rounded-lg px-4'>
+            <h3 className='title-font lg:text-4xl sm:text-2xl text-xl mb-4 font-semibold text-mySkillEduc relative bg-mySkillBlue rounded-lg px-4'>
                 Education
             </h3>
             <div className='flex gap-5 items-center w-full'>
@@ -50,7 +50,7 @@ function Education() {
                                 className='mt-2 flex flex-col margin-auto bg-white p-3 rounded-xl w-2/4 h-52 relative text-left'
                                 style={{justifyContent: 'space-between'}}
                             >
-                                <h2 className='text-myDarkGray font-bold xl:text-2xl text-xl '>
+                                <h2 className='text-myDarkGray font-bold xl:text-2xl sm:text-xl text-lg '>
                                     {education.title}
                                 </h2>
                                 <div>

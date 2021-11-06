@@ -12,12 +12,12 @@ function Presentation() {
 
     return (
         <section id='presentation'>
-            <div className='flex lg:flex-row flex-col items-center min-h-screen '>
-                <div className='container flex px-10 lg:py-20 md:py-4 lg:flex-row flex-col-reverse lg:items-center'>
-                    <div className='lg:flex-grow lg:w-1/2 lg:pr-12 flex flex-col md:items-start lg:text-left items-center lg:justify-center h-screen lg:h-full justify-around'>
-                        <div className='flex items-center w-full mb-3'>
+            <div className='flex lg:flex-row flex-col  items-center min-h-screen justify-center'>
+                <div className='container flex px-10 lg:py-20 md:py-4 lg:flex-row flex-col-reverse lg:items-center justify-center'>
+                    <div className='lg:flex-grow lg:w-1/2 lg:pr-12 flex flex-col md:items-start lg:text-left items-center lg:justify-center h-screen lg:h-full justify-evenly'>
+                        <div className='flex items-center w-full mb-3 lg:flex-row flex-col'>
                             <img
-                                className='object-cover object-center lg:hidden h-10 w-10 rounded-full mr-2 md:h-24 md:w-24'
+                                className='object-cover object-center lg:hidden h-14 w-14 rounded-full mr-2 md:h-20 md:w-20'
                                 alt='Pablo_Koll'
                                 src={PabloPP}
                             />
@@ -25,15 +25,15 @@ function Presentation() {
                                 &#123; HI, I AM PABLO KOLL
                             </h5>
                         </div>
-                        <div>
-                            <div className='mb-4 w-full'>
-                                <h1 className=' xl:text-6xl md:text-5xl sm:text-4xl text-2xl font-black text-myDarkGray relative w-full'>
+                        <div className='text-center lg:text-left'>
+                            <div className='mb-4 w-full lg:flex-row flex flex-col text-center lg:text-left'>
+                                <h1 className=' xl:text-6xl md:text-5xl sm:text-4xl text-2xl font-black text-myDarkGray relative w-full  text-center lg:text-left items-center justify-center'>
                                     Logic Resolution
                                     <br />
-                                    <div className='flex gap-2 w-full'>
+                                    <div className='flex gap-2 w-full justify-center lg:justify-start text-center lg:text-left'>
                                         <span>In</span>
                                         <Typewriter
-                                            className='title-font xl:text-6xl sm:text-4xl text-3xl font-black text-myDarkGray relative w-full'
+                                            className='title-font xl:text-6xl sm:text-4xl text-2xl font-black text-myDarkGray relative w-full  text-center lg:text-left'
                                             options={{
                                                 strings: ['Front-end', 'Back-end', 'Full-Stack'],
                                                 autoStart: true,
@@ -47,10 +47,10 @@ function Presentation() {
                                 Experience in creation apps from Front-end and Back-end &#125;
                             </p>
                         </div>
-                        <div className='flex flex-initial self-start lg:gap-6 sm:gap-12 gap-3 lg:w-full'>
+                        <div className='flex lg:gap-6 sm:gap-12 gap-2 lg:w-full lg:items-start align-middle lg:flex-row flex-col items-center justify-center self-center'>
                             <div
                                 onClick={scrollToBottom}
-                                className='font-semibold inline-flex text-myBlue bg-myButtonFill border-0 md:py-2 md:px-4 px-2 focus:outline-none rounded-full sm:text-lg w-30  md:w-40 lg:w-64 h-12 justify-center items-center cursor-pointer hover:text-myWhite text-md hover:bg-myTextBlue shadow self-center whitespace-nowrap'
+                                className='font-semibold inline-flex text-myBlue bg-myButtonFill border-0 md:py-2 md:px-4 px-2 focus:outline-none rounded-full sm:text-lg w-30  md:w-40 lg:w-64 h-12 justify-center items-center cursor-pointer hover:text-myWhite text-md hover:bg-myTextBlue shadow whitespace-nowrap self-center'
                             >
                                 GET STARTED
                             </div>

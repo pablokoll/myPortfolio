@@ -39,7 +39,7 @@ function Experience() {
 
     return (
         <div className="mb-4">
-            <h3 className='title-font lg:text-4xl sm:text-2xl text-3xl mb-4 font-semibold text-mySkillExp relative bg-mySkillLila rounded-lg px-4'>
+            <h3 className='title-font lg:text-4xl sm:text-2xl text-xl mb-4 font-semibold text-mySkillExp relative bg-mySkillLila rounded-lg px-4'>
                 Experience
             </h3>
             <div className='flex gap-5 items-center w-full'>
@@ -47,7 +47,7 @@ function Experience() {
             {experienceArr.map((education, index) => {
                 return (
                     <div key={index} className="mt-2 flex flex-col margin-auto bg-white p-3 rounded-xl w-2/4 h-52 relative text-left justify-between">
-                        <h2 className='text-myDarkGray font-bold xl:text-2xl text-xl '>{education.title}</h2>
+                        <h2 className='text-myDarkGray font-bold xl:text-2xl sm:text-xl text-lg '>{education.title}</h2>
                         <div>
                         <p className='text-myTextPresent border-b-2 mb-2 border-myGray xl:text-lg'>{education.institution}</p>
                         <p className='text-myTextPresent font-normal xl:text-lg'>{education.date}</p>

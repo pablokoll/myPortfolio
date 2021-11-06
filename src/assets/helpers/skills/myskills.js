@@ -38,7 +38,7 @@ function Skill() {
 
     return (
         <div className='mb-4'>
-            <h3 className='title-font lg:text-4xl sm:text-2xl text-3xl mb-4 font-semibold text-mySkillSkill relative bg-mySkillOrange rounded-lg px-4'>
+            <h3 className='title-font lg:text-4xl sm:text-2xl text-xl mb-4 font-semibold text-mySkillSkill relative bg-mySkillOrange rounded-lg px-4'>
                 Skills
             </h3>
             <div className='flex gap-5 items-center justify-centerr w-full'>
@@ -46,14 +46,14 @@ function Skill() {
                     {skillArr.map((education, index) => {
                         return (
                             <div className='flex flex-col items-center justify-center'>
-                                <h2 className='text-mySkillSubSkill font-bold xl:text-2xl text-xl text-left'>
+                                <h2 className='text-mySkillSubSkill font-bold xl:text-2xl sm:text-xl text-md text-left'>
                                     {education.title}
                                 </h2>
                                 <div
                                     key={index}
                                     className='mt-2 flex flex-col bg-white p-3 rounded-xl h-52 relative shadow-md text-left '
                                 >
-                                    <p className='text-myDarkGray font-semibold text-xl'>
+                                    <p className='text-myDarkGray font-semibold sm:text-xl text-md'>
                                         {education.skills.map((skill) => {
                                             return <p>{skill}</p>;
                                         })}
@@ -86,8 +86,8 @@ function Skill() {
                 </div>
             </div>
             <div className='xl:mt-10'>
-                <p className='xl:text-xl text-center text-myBlue'>{tools['title']}</p>
-                <p className='xl:text-2xl text-center text-lg text-mySkillTools'>
+                <p className='xl:text-xl text-center sm:text-lg text-sm text-myBlue'>{tools['title']}</p>
+                <p className='xl:text-2xl text-center sm:text-xl text-md text-mySkillTools'>
                     {tools['skills'].join(' ')}
                 </p>
             </div>
