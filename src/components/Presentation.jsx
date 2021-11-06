@@ -13,9 +13,9 @@ function Presentation() {
 
     return (
         <section id='presentation'>
-            <div className='flex md:flex-row flex-col items-center min-h-screen'>
+            <div className='flex md:flex-row flex-col items-center min-h-screen '>
                 <div className='container flex px-10 py-20 md:flex-row flex-col-reverse'>
-                    <div className='lg:flex-grow md:w-1/2 lg:pr-12 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center '>
+                    <div className='lg:flex-grow md:w-1/2 lg:pr-12 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center md:justify-center'>
                         <div className='flex items-center w-full mb-3'>
                             <img
                                 className='object-cover object-center md:hidden h-10 w-10 rounded-full mr-2'
@@ -27,7 +27,7 @@ function Presentation() {
                             </h5>
                         </div>
                         <div className='mb-4 w-full'>
-                            <h1 className=' xl:text-6xl sm:text-4xl text-4xl font-black text-myDarkGray relative w-full'>
+                            <h1 className=' xl:text-6xl sm:text-4xl text-3xl font-black text-myDarkGray relative w-full'>
                                 Logic Resolution
                                 <br />
                                 <div className='flex gap-2 w-full'>

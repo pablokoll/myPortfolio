@@ -8,28 +8,20 @@ import { BsFillArrowLeftCircleFill } from 'react-icons/bs';
 
 function BffGallery() {
     return (
-        <div className='flex relative items-center min-h-screen '>
-            <span className='absolute top-16 left-1/4'>
+        <div className='flex relative items-center min-h-screen w-full '>
+            <span className='absolute top-6 md:top-16 md:left-1/4 left-3'>
                 <Link to='/'>
                     <BsFillArrowLeftCircleFill className='h-8 w-8 text-myDarkGray hover:text-myYellow' />
                 </Link>
             </span>
-            <Link to='/project/COCO%20mall'>
-                <span className='transform rotate-90 absolute -left-6 text-3xl text-myNightBlue hover:text-myYellow '>
-                    Previous
-                </span>
-            </Link>
-            <span className='transform -rotate-90 absolute right-0 text-3xl text-myNightBlue hover:text-myDarkGrayLow  cursor-default'>
-                Next
-            </span>
-            <div className='flex flex-col container px-5 py-5 mx-auto items-center bg-white w-2/3 h-full'>
+            <div className='flex flex-col md:container px-6 py-5 md:mx-auto items-center md:w-2/3 w-full h-full'>
                 <div className='flex items-center gap-5'>
                     <h2 className='title-font lg:text-5xl sm:text-4xl text-3xl mb-4 font-extrabold text-myDarkGray relative'>
                         BFF Gallery
                     </h2>
                     <span className='text-myYellow font-bold text-shadow'>Dog Gallery</span>
                 </div>
-                <div className='flex relative w-2/3 justify-center'>
+                <div className='flex relative md:w-2/3 w-full justify-center'>
                     <iframe
                         className='rounded-2xl w-full'
                         width='500'
@@ -41,7 +33,7 @@ function BffGallery() {
                         allowfullscreen
                     ></iframe>
                 </div>
-                <div className='flex flex-col w-2/3 justify-center items-center py-2'>
+                <div className='flex flex-col md:w-2/3 justify-center items-center py-2'>
                     <div>
                         <div className='flex flex-col mt-4'>
                             <h5 className='text-myYellow font-semibold text-xl text-shadow'>JAVASCRIPT</h5>
