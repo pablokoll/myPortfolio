@@ -1,49 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import './utils/fonts/SF-Pro-Rounded-Medium.otf'; */
-
-/* @font-face {
-    font-family: SF Pro Rounded;
-    src: url('../fonts/Verlag-Black.otf'), url('../fonts/Verlag-Bold.otf'), url('../fonts/Verlag-Bold.otf'),
-    url('../fonts/Verlag-Book.otf'), url('../fonts/Verlag-Light.otf'),
-    url('../fonts/Verlag-XLight.otf');
-} */
-@font-face {
-    font-family: SF Pro Rounded;
-    src: url('./utils/fonts/SF-Pro-Rounded-Medium.otf');
-    font-weight: 500;
-}
-@font-face {
-    font-family: SF Pro Rounded;
-    src: url('./utils/fonts/SF-Pro-Rounded-Bold.otf');
-    font-weight: 700;
-}
-@font-face {
-    font-family: SF Pro Rounded;
-    src: url('./utils/fonts/SF-Pro-Rounded-Semibold.otf');
-    font-weight: 600;
-}
-@font-face {
-    font-family: SF Pro Rounded;
-    src: url('./utils/fonts/SF-Pro-Rounded-Regular.otf');
-    font-weight: 400;
-}
-@font-face {
-    font-family: SF Pro Rounded;
-    src: url('./utils/fonts/SF-Pro-Rounded-Light.otf');
-    font-weight: 300;
-}
-@font-face {
-    font-family: SF Pro Rounded;
-    src: url('./utils/fonts/SF-Pro-Rounded-Heavy.otf');
-    font-weight: 800;
-}
-@font-face {
-    font-family: SF Pro Rounded;
-    src: url('./utils/fonts/SF-Pro-Rounded-Black.otf');
-    font-weight: 900;
-}
 
 * {
     font-family: 'SF Pro Rounded', 'Nunito', 'M PLUS Rounded 1c', 'Inter', -apple-system,
