@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 * {
-    font-family: -apple-system,'SF Pro Rounded', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont,'SF Pro Rounded', sans-serif;
     /* border: 1px solid black; */
 }
