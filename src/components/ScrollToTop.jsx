@@ -34,10 +34,11 @@ function ScrollToTop() {
     <div className='fixed bottom-3 right-3 md:bottom-6 md:right-6 z-30 '>
       <button
         type='button'
+        name="scrollToTop"
         onClick={scrollToTop}
         className={classNames(
           isVisible ? 'opacity-100' : 'opacity-0 cursor-default',
-          'inline-flex items-center p-2 md:p-3 rounded-full shadow-sm text-white bg-myDarkGray ring-2 ring-myYellowLow transition-opacity hover:bg-myBlue focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-myYellowLow'
+          'inline-flex items-center p-2 md:p-3 rounded-full shadow-sm text-white bg-myDarkGray ring-2 ring-myButtonFill transition-opacity hover:bg-myBlue focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-myButtonFill'
         )}
       >
         <BiArrowFromBottom className='h-6 w-6 ' aria-hidden='true' />

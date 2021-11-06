@@ -19,13 +19,13 @@ const projectArr = [
 function Project() {
    
     return (
-        <div className='flex flex-col md:flex-row gap-8 mt-4 m-auto container items-start'>
+        <div className='flex flex-col xl:flex-row gap-8 mt-4 m-auto container items-start'>
             {projectArr.map((project, index) => {
                 return (
                     <Link to={`/project/${project.title}`}>
                     <div key={index} className="mt-2 flex flex-col margin-auto bg-black p-4 rounded-3xl cursor-pointer transform hover:scale-105">
-                        <h2 className='text-myWhite font-extrabold text-3xl '>{project.title}</h2>
-                        <h4 className='text-myGray font-bold text-xl'>{project.subTitle}</h4>
+                        <h2 className='text-myWhite font-extrabold text-3xl pb-2'>{project.title}</h2>
+                        <h4 className='text-myGray font-bold text-xl pb-2'>{project.subTitle}</h4>
                         <img src={project.img} alt={project.title} className='w-full rounded-xl'/>
                     </div>
                     </Link>
