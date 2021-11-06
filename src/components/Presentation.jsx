@@ -1,7 +1,6 @@
 import React from 'react';
 import PabloPP from '../assets/img/Pablo-Koll-PP.jpg';
 import Typewriter from 'typewriter-effect';
-import EmojiPablo from '../assets/gif/output-onlinegiftools (1).gif';
 
 function Presentation() {
     const scrollToBottom = () => {
@@ -22,13 +21,13 @@ function Presentation() {
                                 alt='Pablo_Koll'
                                 src={PabloPP}
                             />
-                            <h5 className='text-myBlue font-bold text-xl md:text-2xl'>
+                            <h5 className='text-myBlue font-bold text-md sm:text-xl md:text-2xl'>
                                 &#123; HI, I AM PABLO KOLL
                             </h5>
                         </div>
                         <div>
                             <div className='mb-4 w-full'>
-                                <h1 className=' xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-black text-myDarkGray relative w-full'>
+                                <h1 className=' xl:text-6xl md:text-5xl sm:text-4xl text-2xl font-black text-myDarkGray relative w-full'>
                                     Logic Resolution
                                     <br />
                                     <div className='flex gap-2 w-full'>
@@ -44,14 +43,14 @@ function Presentation() {
                                     </div>
                                 </h1>
                             </div>
-                            <p className='lg:text-2xl md:mb-8 font-medium md:text-2xl xl:w-2/3 text-myTextPresent text-xl w-full mb-6'>
+                            <p className='lg:text-2xl md:mb-8 font-medium md:text-2xl xl:w-2/3 text-myTextPresent sm:text-xl text-lg w-full'>
                                 Experience in creation apps from Front-end and Back-end &#125;
                             </p>
                         </div>
-                        <div className='flex lg:flex-initial lg:justify-start lg:gap-6 md:gap-12 gap-4 lg:w-full items-center'>
+                        <div className='flex flex-initial self-start lg:gap-6 sm:gap-12 gap-3 lg:w-full'>
                             <div
                                 onClick={scrollToBottom}
-                                className='font-semibold inline-flex text-myBlue bg-myButtonFill border-0 md:py-2 md:px-4 px-2 focus:outline-none rounded-full md:text-lg w-44 lg:w-64 h-12 justify-center items-center cursor-pointer hover:text-myWhite hover:bg-myTextBlue shadow self-center'
+                                className='font-semibold inline-flex text-myBlue bg-myButtonFill border-0 md:py-2 md:px-4 px-2 focus:outline-none rounded-full sm:text-lg w-30  md:w-40 lg:w-64 h-12 justify-center items-center cursor-pointer hover:text-myWhite text-md hover:bg-myTextBlue shadow self-center whitespace-nowrap'
                             >
                                 GET STARTED
                             </div>
@@ -59,15 +58,12 @@ function Presentation() {
                                 href='https://drive.google.com/file/d/1Bct8EOkiFPlZ6b8Z40p9b6rJWFUF9hw-/view?usp=sharing'
                                 target='_blank'
                                 rel='noreferrer'
-                                className='font-semibold text-myBlue border-0 py-2 focus:outline-none md:text-lg cursor-pointer hover:text-myTextBlue text-shadow lg:w-full relative self-center'
+                                className='font-semibold text-myBlue border-0 py-2 focus:outline-none md:text-lg cursor-pointer hover:text-myTextBlue text-shadow lg:w-full relative self-center text-md whitespace-nowrap'
                             >
                                 DOWNLOAD CV
                             </a>
                             
                         </div>
-                        {/* <div className='md:invisible md:w-0 md:h-0 w-full h-full bottom-0'>
-                            <img className='' src={EmojiPablo} alt='pabloGif' />
-                        </div> */}
                     </div>
                     <div className='w-2/5'>
                         <img

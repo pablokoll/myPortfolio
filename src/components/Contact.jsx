@@ -67,8 +67,8 @@ function Contact() {
         <section id='contact' className='relative'>
             <div className='flex xl:flex-row flex-col items-center min-h-screen'>
                 <div className='container sm:px-10 pt-10 mx-auto flex flex-col xl:flex-nowrap flex-wrap '>
-                    <h5 className='text-myBlue font-bold xl:text-2xl text-lg mb-2 text-shadow bg-myButtonFill xl:w-36 rounded-xl py-1 px-4 xl:px-5 w-28 xl:m-0 mx-5 sm:mx-0'>HIRE ME</h5>
-                    <h1 className='title-font xl:text-6xl sm:text-4xl text-4xl font-black text-myDarkGray relative xl:mx-0 xl:my-2 mx-5 sm:mx-0'>
+                    <h5 className='text-myBlue font-bold xl:text-2xl md:text-lg mb-2 text-shadow bg-myButtonFill xl:w-36 rounded-xl py-1 px-4 xl:px-5 w-28 xl:mb-4 mx-5 sm:mx-0'>HIRE ME</h5>
+                    <h1 className='xl:text-6xl md:text-5xl sm:text-4xl text-2xl font-black text-myDarkGray relative w-full xl:mx-0 xl:my-2 mx-5 sm:mx-0'>
                         CONTACT
                     </h1>
                     <div className='flex flex-col xl:flex-row bg-white xl:rounded-3xl rounded-t-3xl p-4 mt-4 w-full shadow-xl'>
