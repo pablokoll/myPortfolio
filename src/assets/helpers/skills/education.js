@@ -41,20 +41,19 @@ function Education() {
             <h3 className='title-font lg:text-4xl sm:text-2xl text-xl mb-4 font-semibold text-mySkillEduc relative bg-mySkillBlue rounded-lg px-4'>
                 Education
             </h3>
-            <div className='flex gap-5 items-center w-full'>
+            <div className='flex gap-5 items-center w-full relative'>
                 <Slider {...settings} className='w-full rounded-xl shadow-md  xl:invisible xl:w-0  xl:h-0 relative'>
                     {educationArr.map((education, index) => {
                         return (
                             <div
                                 key={index}
-                                className='mt-2 flex flex-col margin-auto bg-white p-3 rounded-xl w-2/4 h-52 relative text-left'
-                                style={{justifyContent: 'space-between'}}
+                                className='mt-2 flex flex-col bg-white p-3 rounded-xl w-2/4 relative text-left justify-between h-52'
                             >
                                 <h2 className='text-myDarkGray font-bold xl:text-2xl sm:text-xl text-lg '>
                                     {education.title}
                                 </h2>
-                                <div>
-                                    <p className='text-myTextPresent border-b-2 mb-2 border-myGray xl:text-lg '>
+                                <div className='absolute bottom-2 w-full pr-10'>
+                                    <p className='text-myTextPresent border-b-2 mb-2 border-myGray xl:text-lg'>
                                         {education.institution}
                                     </p>
                                     <p className='text-myTextPresent font-normal xl:text-lg '>
@@ -70,7 +69,7 @@ function Education() {
                         return (
                             <div
                                 key={index}
-                                className='mt-2 flex flex-col margin-auto bg-white p-3 rounded-xl xl:w-full w-0 h-0 xl:h-64 xl:visible invisible relative shadow-xl text-left justify-between'
+                                className='mt-2 flex flex-col margin-auto bg-white p-3 rounded-xl xl:w-full w-0 h-0 xl:h-64 xl:visible invisible relative shadow-lg text-left justify-between'
                             >
                                 <h2 className='text-myDarkGray font-bold xl:text-2xl text-xl '>
                                     {education.title}

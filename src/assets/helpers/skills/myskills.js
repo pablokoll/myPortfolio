@@ -41,8 +41,8 @@ function Skill() {
             <h3 className='title-font lg:text-4xl sm:text-2xl text-xl mb-4 font-semibold text-mySkillSkill relative bg-mySkillOrange rounded-lg px-4'>
                 Skills
             </h3>
-            <div className='flex gap-5 items-center justify-centerr w-full'>
-                <Slider {...settings} className='w-full items-center justify-center  xl:invisible xl:w-0  xl:h-0 relative mb-10'>
+            <div className='flex gap-5 items-center w-full'>
+                <Slider {...settings} className='w-full items-center justify-center xl:invisible xl:w-0 xl:h-0 relative mb-10'>
                     {skillArr.map((education, index) => {
                         return (
                             <div className='flex flex-col items-center justify-center'>

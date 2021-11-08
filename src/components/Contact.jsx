@@ -66,13 +66,13 @@ function Contact() {
     return (
         <section id='contact' className='relative'>
             <div className='flex xl:flex-row flex-col items-center min-h-screen'>
-                <div className='container sm:px-10 pt-10 mx-auto flex flex-col xl:flex-nowrap flex-wrap '>
+                <div className='container sm:px-10 pt-10 lg:py-10 mx-auto flex flex-col xl:flex-nowrap flex-wrap '>
                     <h5 className='text-myBlue font-bold xl:text-2xl md:text-lg mb-2 text-shadow bg-myButtonFill xl:w-36 rounded-xl py-1 px-3 xl:px-5 sm:w-28 w-24 xl:mb-4 mx-5 sm:mx-0'>HIRE ME</h5>
                     <h1 className='xl:text-6xl md:text-5xl sm:text-4xl text-2xl font-black text-myDarkGray relative w-full xl:mx-0 xl:my-2 mx-5 sm:mx-0'>
                         CONTACT
                     </h1>
                     <div className='flex flex-col xl:flex-row bg-white xl:rounded-3xl rounded-t-3xl p-4 mt-4 w-full shadow-xl'>
-                        <div className='flex flex-col xl:flex-col xl:pl-8 xl:p-6 p-4 bg-myButtonFill xl:w-1/3 h-44 xl:h-full rounded-2xl xl:overflow-hidden relative'>
+                        <div className='flex flex-col xl:flex-col xl:pl-8 xl:p-6 p-4 bg-myButtonFill xl:w-1/3 h-44 xl:h-auto rounded-2xl xl:overflow-hidden relative'>
                             <h3 className='text-myContactTitles font-bold xl:text-3xl text-lg mb-2 xl:mb-4'>
                                 Contact Information
                             </h3>
@@ -122,14 +122,14 @@ function Contact() {
                         </div>
                         <form
                             ref={form}
-                            className='bg-white flex flex-col xl:ml-auto w-full xl:w-2/3 xl:p-8 mt-8 xl:mt-0 relative px-4 '
+                            className='bg-white flex flex-col xl:ml-auto w-full xl:w-2/3 xl:pt-8 xl:pr-8 xl:pl-8 mt-8 xl:mt-0 relative px-4 '
                             onSubmit={handleSubmit(onSubmit)}
                         >
                             <div className='flex flex-col xl:flex-row gap-2 xl:gap-10 mb-4'>
                                 <div className='relative mb-4 flex flex-col w-full'>
                                     <label
                                         htmlFor='First_name'
-                                        className='leading-7 text-xl font-semibold text-myDarkGray'
+                                        className='leading-7 md:text-xl text-lg font-semibold text-myDarkGray'
                                     >
                                         First Name
                                     </label>
@@ -150,7 +150,7 @@ function Contact() {
                                 <div className='relative mb-4 flex flex-col w-full'>
                                     <label
                                         htmlFor='Last_name'
-                                        className='leading-7 font-semibold text-xl text-myDarkGray'
+                                        className='leading-7 font-semibold md:text-xl text-lg text-myDarkGray'
                                     >
                                         Last Name
                                     </label>
@@ -173,7 +173,7 @@ function Contact() {
                                 <div className='relative mb-4 flex flex-col w-full '>
                                     <label
                                         htmlFor='Email'
-                                        className='leading-7 text-xl font-semibold text-myDarkGray'
+                                        className='leading-7 md:text-xl text-lg font-semibold text-myDarkGray'
                                     >
                                         Mail
                                     </label>
@@ -193,7 +193,7 @@ function Contact() {
                                 <div className='relative mb-4 flex flex-col w-full '>
                                     <label
                                         htmlFor='Mobile_number'
-                                        className='leading-7 text-xl font-semibold text-myDarkGray'
+                                        className='leading-7 md:text-xl text-lg font-semibold text-myDarkGray'
                                     >
                                         Phone
                                     </label>
@@ -213,14 +213,14 @@ function Contact() {
                                     />
                                 </div>
                             </div>
-                            <h4 className='leading-7 text-xl font-semibold text-myDarkGray mb-2'>
+                            <h4 className='leading-7 md:text-xl text-lg font-semibold text-myDarkGray mb-2'>
                                 Why contact me?
                             </h4>
-                            <div className='flex flex-wrap relative mb-4 xl:mb-10 gap-3 xl:gap-6 w-full'>
+                            <div className='flex flex-wrap relative mb-4 xl:mb-10 gap-3  xl:gap-6 w-full'>
                                 <div className='flex flex-row-reverse place-items-center'>
                                     <label
                                     htmlFor='Full-Stack'
-                                    className='leading-7 text-xl font-semibold text-myDarkGrayLow'>
+                                    className='leading-7 md:text-xl text-md font-semibold text-myDarkGrayLow'>
                                         Full-Stack
                                     </label>
                                     <input
@@ -233,7 +233,7 @@ function Contact() {
                                 <div className='flex flex-row-reverse  place-items-center'>
                                     <label
                                     htmlFor='Front-End'
-                                    className='leading-7 text-xl font-semibold text-myDarkGrayLow'>
+                                    className='leading-7 md:text-xl text-md font-semibold text-myDarkGrayLow'>
                                         Front-End
                                     </label>
                                     <input
@@ -246,7 +246,7 @@ function Contact() {
                                 <div className='flex flex-row-reverse  place-items-center'>
                                     <label
                                     htmlFor='Back-End'
-                                    className='leading-7 text-xl font-semibold text-myDarkGrayLow'>
+                                    className='leading-7 md:text-xl text-md font-semibold text-myDarkGrayLow'>
                                         Back-End
                                     </label>
                                     <input
@@ -259,7 +259,7 @@ function Contact() {
                                 <div className='flex flex-row-reverse  place-items-center'>
                                     <label
                                     htmlFor='Other'
-                                    className='leading-7 text-xl font-semibold text-myDarkGrayLow'>
+                                    className='leading-7 md:text-xl text-md font-semibold text-myDarkGrayLow'>
                                         Other
                                     </label>
                                     <input
@@ -273,7 +273,7 @@ function Contact() {
                             <div className='flex flex-col relative mb-4 '>
                                 <label
                                 htmlFor='Message'
-                                className='leading-7 text-xl font-semibold text-myDarkGray'>
+                                className='leading-7 md:text-xl text-lg font-semibold text-myDarkGray'>
                                     Message
                                 </label>
                                 <textarea
@@ -287,7 +287,7 @@ function Contact() {
                                     className='resize-none focus:ring-0 focus:border-myTextBlue border-b-2 border-myGray border-t-0 border-l-0 border-r-0 xl:h-28 h-20'
                                 />
                             </div>
-                            <span className='absolute text-lg xl:right-0 bottom-16 xl:bottom-0 xl:mr-5 text-red-800'>
+                            <span className='absolute md:text-xl text-lg xl:right-0 bottom-16 xl:bottom-0 xl:mr-5 text-red-800'>
                                 {errors.First_name?.message?.length ||
                                 errors.Last_name?.message?.length ||
                                 errors.Email?.message?.length ||
@@ -299,7 +299,7 @@ function Contact() {
                             <button
                                 type='submit'
                                 value='Send'
-                                className='self-center xl:self-start font-semibold inline-flex text-myBlue bg-myButtonFill hover:bg-myTextBlue border-0 lg:py-2 lg:px-4 px-2 focus:outline-none rounded-full lg:text-xl w-56 xl:w-60 h-12 justify-center items-center cursor-pointer hover:text-myWhite shadow mt-10 xl:mt-5'
+                                className='self-center xl:self-end font-semibold inline-flex text-myBlue bg-myButtonFill hover:bg-myTextBlue border-0 lg:py-2 lg:px-4 px-2 focus:outline-none rounded-full lg:text-xl w-56 xl:w-60 h-12 justify-center items-center cursor-pointer hover:text-myWhite shadow mt-10 xl:mt-5'
                             >
                                 Submit
                             </button>

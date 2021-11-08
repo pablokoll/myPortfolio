@@ -9,7 +9,7 @@ function Skills() {
             <div className='flex md:flex-row flex-col items-center min-h-screen min-w-full'>
                 <div className='container px-10 py-10 mx-auto'>
                     <div className='md:mb-8 mb-2'>
-                    <h5 className='text-myBlue font-bold xl:text-2xl md:text-lg mb-2 text-shadow bg-myButtonFill xl:w-32 rounded-xl py-1 px-4 xl:px-5 w-24 xl:mb-4'>SKILLS</h5>
+                    <h5 className='text-myBlue font-bold xl:text-2xl md:text-lg mb-2 text-shadow bg-myButtonFill xl:w-32 rounded-xl py-1 sm:px-4 px-3 xl:px-5 sm:w-24 w-20 xl:mb-4'>SKILLS</h5>
                         <h1 className='xl:text-6xl md:text-5xl sm:text-4xl text-2xl font-black text-myDarkGray relative w-full'>
                             Experience
                         </h1>

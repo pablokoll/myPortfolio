@@ -51,7 +51,8 @@ module.exports = {
             backgroundColor: ['checked', 'odd'],
             borderColor: ['checked'],
             overflow: ['hover'],
-            textDecoration: ['focus-visible']
+            textDecoration: ['focus-visible'],
+            visibility: ['hover', 'focus'],
         },
     },
     plugins: [require('@tailwindcss/forms'), require('tailwindcss-textshadow')],

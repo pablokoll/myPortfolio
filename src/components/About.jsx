@@ -7,7 +7,7 @@ function About() {
             <div className='flex xl:flex-row flex-col items-center'>
                 <div className='container px-10 py-10 mx-auto md:flex md:flex-row-reverse w-full justify-start'>
                     <div className='mb-10 xl:w-2/3'>
-                    <h5 className='text-myBlue font-bold xl:text-2xl md:text-lg mb-2 text-shadow bg-myButtonFill xl:w-32 rounded-xl py-1 px-4 xl:px-5 w-24 xl:mb-4'>ABOUT</h5>
+                    <h5 className='text-myBlue font-bold xl:text-2xl md:text-lg mb-2 text-shadow bg-myButtonFill xl:w-32 rounded-xl py-1 px-3 sm:px-4 xl:px-5 sm:w-24 w-20 xl:mb-4'>ABOUT</h5>
                         <div className='flex items-center'>
                             <h1 className='xl:text-6xl md:text-5xl sm:text-4xl text-2xl font-black text-myDarkGray relative'>
                                 Who I am ?
