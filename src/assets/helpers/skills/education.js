@@ -64,7 +64,7 @@ function Education() {
                         );
                     })}
                 </Slider>
-                <div className='flex gap-16 px-4 items-center'>
+                <div className='flex gap-16 px-4 items-center  w-full'>
                     {educationArr.map((education, index) => {
                         return (
                             <div
