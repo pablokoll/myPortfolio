@@ -30,7 +30,7 @@ function BffGallery() {
                             <BsFillArrowLeftCircleFill className='h-8 w-8 text-myDarkGray hover:text-myBlue' />
                         </Link>
                     </span>
-                    <div className='flex items-center flex-col sm:flex-row mb-4 justify-center'>
+                    <div className='flex items-center sm:items-end flex-col sm:flex-row mb-4 justify-center'>
                         <h2 className='title-font lg:text-5xl sm:text-4xl text-3xl font-extrabold text-myDarkGray relative whitespace-nowrap'>
                             BFF Gallery
                         </h2>
