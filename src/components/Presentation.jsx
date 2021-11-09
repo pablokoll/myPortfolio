@@ -55,7 +55,7 @@ function Presentation() {
                                 GET STARTED
                             </div>
                             <a
-                                href='https://drive.google.com/file/d/1Bct8EOkiFPlZ6b8Z40p9b6rJWFUF9hw-/view?usp=sharing'
+                                href='https://drive.google.com/file/d/1GSNIBwwWagF_rR-8j_S3n6G0VlCvfSOo/view?usp=sharing'
                                 target='_blank'
                                 rel='noreferrer'
                                 className='font-semibold text-myBlue border-0 py-2 focus:outline-none md:text-lg cursor-pointer hover:text-myTextBlue text-shadow lg:w-full relative self-center text-md whitespace-nowrap'
