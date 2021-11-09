@@ -37,7 +37,7 @@ function Project() {
                         className='mt-2 flex flex-col margin-auto bg-black lg:p-4 p-2 rounded-3xl transform group relative w-full h-full'
                     >
                         <FrontSide key={index} className=''>
-                            <h2 className='text-myWhite font-extrabold lg:text-3xl sm:text-xl pb-2'>
+                            <h2 className='text-myWhite font-extrabold lg:text-3xl text-xl pb-2'>
                                 {project.title}
                             </h2>
                             <h4 className='text-myGray font-bold lg:text-xl text-lg pb-2'>
