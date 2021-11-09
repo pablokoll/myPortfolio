@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { BsFillArrowLeftCircleFill } from 'react-icons/bs';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import { BiRightArrowAlt, BiLeftArrowAlt } from 'react-icons/bi';
 
 function BffGallery() {
     const skillArr = [
@@ -34,7 +32,9 @@ function BffGallery() {
                         <h2 className='title-font lg:text-5xl sm:text-4xl text-3xl font-extrabold text-myDarkGray relative whitespace-nowrap'>
                             BFF Gallery
                         </h2>
-                        <span className='text-myBlue font-bold text-shadow items-center justify-center ml-2'>Dog Gallery</span>
+                        <span className='text-myBlue font-bold text-shadow items-center justify-center ml-2'>
+                            Dog Gallery
+                        </span>
                     </div>
                 </div>
                 <div className='flex relative xl:w-3/4 w-full justify-center'>
@@ -99,6 +99,20 @@ function BffGallery() {
                             unite all the things I had learned and obtain this resdivt being the
                             first time, I am really very happy with what was obtained.
                         </p>
+                    </div>
+                    <div className='flex gap-1 mt-8 items-center bg-myButtonFill md:px-4 py-1 px-2   rounded-3xl'>
+                        <Link to={`/project/COCO%20mall`}>
+                        <BiLeftArrowAlt className='font-semibold text-myDarkGray border-0 px-2 focus:outline-none rounded-full text-md w-10 h-10 justify-center items-center hover:text-myWhite text-md hover:bg-myTextBlue relative cursor-pointer' />
+                        </Link>
+                        <Link to={`/project/COCO%20mall`}>
+                            <button className='font-semibold text-myDarkGray border-0 px-2 focus:outline-none rounded-lg text-md w-28 h-12 justify-center items-center hover:text-myWhite text-md hover:bg-myTextBlue whitespace-nowrap relative  cursor-pointer'>
+                            COCO mall
+                            </button>
+                        </Link>
+                            <button className='font-semibold text-myWhite border-0 px-2 focus:outline-none text-md w-28 h-12 justify-center items-center  text-md bg-myBlue whitespace-nowrap relative rounded-lg cursor-default '>
+                                BFF-Gallery
+                            </button>
+                        <BiRightArrowAlt className='font-semibold text-myDarkGray border-0 px-2 focus:outline-none rounded-full text-md w-10 h-10 justify-center items-center hover:text-myWhite text-md hover:bg-myGray relative  cursor-pointer'  />
                     </div>
                 </div>
             </div>
